@@ -77,8 +77,8 @@ The following are open formats for media that are the most commonly used:
 
 It often makes sense to compress a dataset or a set of datasets to save space and bandwidth.  Unfortunately there is not a common compression format that is easily supported on multiple platforms.  This means that providing multiple formats is probably the best solution.
 
-* [.zip](http://en.wikipedia.org/wiki/ZIP_(file_format) are widely supported but not entirely open.
-* [.gz](http://en.wikipedia.org/wiki/Gzip) or [.tar](http://en.wikipedia.org/wiki/Tar_(file_format) are open but not supported without external software on systems like Microsoft Windows.
+* [.zip](http://en.wikipedia.org/wiki/ZIP_(file_format)) are widely supported but not entirely open.
+* [.gz](http://en.wikipedia.org/wiki/Gzip) or [.tar](http://en.wikipedia.org/wiki/Tar_(file_format)) are open but not supported without external software on systems like Microsoft Windows.
 
 ### Formats not to use
 
@@ -131,6 +131,10 @@ It takes significant resources to ensure data is available now and into the futu
 ## Linkability
 
 A consistent, permament, predicatable, and readable URL to data resources is extremely important both for reference sake but for applications that directly pull data in directly.
+
+## Licensing
+
+Licensing means to put some legal terms on the data for how it can or cannot be used.  You should use a license that is as permissive as possible, such as [CCO](http://creativecommons.org/publicdomain/zero/1.0/).  If you really have the need to require attribution and [copyleft](http://en.wikipedia.org/wiki/Copyleft), then look at the [ODBL](http://opendatacommons.org/licenses/odbl/summary/).  Depending on your local laws, your data may already be licensed.  Also note that these existing licenses provide information on warranty.
  
 ## Not another open data format document
 
