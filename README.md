@@ -124,11 +124,11 @@ Overall, an API approach will be more resource intensive for you to implement.  
 * APIs must be documented well regardless of how they are implemented.  Examples are also very helpful.  See [Github's API documentation](http://developer.github.com/v3/) for a good example.
 * Use HTTP Headers to communicate metadata.
 
-## Permanence
+### Permanence
 
 It takes significant resources to ensure data is available now and into the future, but if you're goal is to be the authority on the data it is important to keep your data resources up.  This means that a simple solution to host your data may be the best fit.
 
-## Linkability
+### Linkability
 
 A consistent, permament, predicatable, and readable URL to data resources is extremely important both for reference sake but for applications that directly pull data in directly.
 
