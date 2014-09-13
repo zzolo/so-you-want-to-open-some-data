@@ -112,6 +112,10 @@ Data should not be behind any sort of login process or agreement process.  A com
 
 The two main mechanisms for obtaining data are from direct downloads or an API (Application Programming Interface).  Both these mechanisms are important; an API can provide the ability to get specific parts of the datasets when needed, while complete dataset downloads are very helpful when doing analysis.
 
+#### Direct (bulk) downloads
+
+Direct downloads mean that specific sets of data can be downloaded all at once.  This is really helpful for analysis and working with the data offline.  Overall, this mechanism is more important than an API, as direct downloads will provide all the data and the ability to analyze.  Do make sure that prermance and linkability are followed (see below).
+
 #### APIs
 
 Overall, an API approach will be more resource intensive for you to implement.  A general rule of thumb is that as the size of dataset grows or the frequency of which it is updated grows, the more likely an API will be needed.
@@ -126,7 +130,7 @@ It takes significant resources to ensure data is available now and into the futu
 
 ## Linkability
 
-A consistent and permament URL to data resources is extremely important both for reference sake but for applications that directly pull data.
+A consistent, permament, predicatable, and readable URL to data resources is extremely important both for reference sake but for applications that directly pull data in directly.
  
 ## Not another open data format document
 
